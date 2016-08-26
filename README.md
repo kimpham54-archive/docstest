@@ -1,2 +1,0 @@
-# docstest
-test for mkdocs
