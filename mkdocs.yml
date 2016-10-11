@@ -6,7 +6,7 @@ site_description: Documentation for Islandora CLAW
 dev_addr: 'localhost:8111'
 repo_url: https://github.com/kimpham54/docstest
 
-theme: bootstrap
+theme: material
 
 extra:
   font:
