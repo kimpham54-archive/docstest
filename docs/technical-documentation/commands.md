@@ -1,8 +1,10 @@
+# version 8.x-1.1
+
 # Islandora Commands
 
 ## Introduction
 
-Sometimes you need to do deeper logic in a Camel route than can realistically be done within a Blueprint XML. Since Apache Camel is an *integration* framework, we can call out to command line PHP instead of having to use Java for the majority of our tasks. Though Java is still always an option to those who are inclined (and may be required for more advanced use cases), there are many advantages to sticking with PHP. Not only is it the language we're most comfortable with as a community, but its also well suited for dealing with both JSON-LD from Fedora and node content from Drupal (much more so than Java). We also get the full advantages of modern PHP, including object oriented programming and tools like Composer. 
+Sometimes you need to do deeper logic in a Camel route than can realistically be done within a Blueprint XML. Since Apache Camel is an *integration* framework, we can call out to command line PHP instead of having to use Java for the majority of our tasks. Though Java is still always an option to those who are inclined (and may be required for more advanced use cases), there are many advantages to sticking with PHP. Not only is it the language we're most comfortable with as a community, but its also well suited for dealing with both JSON-LD from Fedora and node content from Drupal (much more so than Java). We also get the full advantages of modern PHP, including object oriented programming and tools like Composer.
 
 ## Basic Usage
 
@@ -37,7 +39,7 @@ Available commands:
 ```
 Wow, that's a lot. How did we get all that nice output? It's because we're using the Symfony Console component as a framework for our script. We get all kinds of stuff for free because of it, including versioning, exception catching, and this helpful message.
 
-As you can see, this tool expects a command to be provided. Notice that the commands are even namespaced! Normally, commands would accept arguments and parameters optionally after the command. But from Camel, message bodies are piped to the tool using STDIN, which the tool will gladly accept. Let's try running a command that will convert a node represented in JSON from Drupal into a SPARQL update query. First, we'll save the input to a file so that when we run the command we can just dump its contents into STDIN to emulate how Camel behaves. Go find a node on your site and get its UUID by looking at its devel tab. 
+As you can see, this tool expects a command to be provided. Notice that the commands are even namespaced! Normally, commands would accept arguments and parameters optionally after the command. But from Camel, message bodies are piped to the tool using STDIN, which the tool will gladly accept. Let's try running a command that will convert a node represented in JSON from Drupal into a SPARQL update query. First, we'll save the input to a file so that when we run the command we can just dump its contents into STDIN to emulate how Camel behaves. Go find a node on your site and get its UUID by looking at its devel tab.
 
 PUT PICTURE OF DEVEL TAB HERE
 

@@ -1,3 +1,5 @@
+# version 8.x-1.1
+
 # The Islandora Camel Component
 
 ## Introduction

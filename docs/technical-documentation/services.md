@@ -1,3 +1,5 @@
+# version 8.x-1.1
+
 # Middleware Services
 
 Islandora middleware services utilize the Fedora 4 REST API and the Drupal Services module to create an API for the majority of interactions between the two systems. The Drupal uuid will be used to identify `pcdm:Objects` (and `pcdm:Files` thereof) when using these services.  The breakdown of services is as follows:
@@ -20,7 +22,7 @@ Used for manipulating `pcdm:Collections`. Essentially wraps the Fedora 4 API req
 
 * `GET` http://localhost:8080/islandora-services/collection/{uuid}
     * Returns `application/ld+json` RDF metadata for the `pcdm:Collection` identified by the supplied Drupal uuid.
-    
+
 * `POST` http://localhost:8080/islandora-services/collection/
     * Accepts `application/json` serialized node data.
     * Creates a `pcdm:Collection` in Fedora using the Drupal node data, associating the newly minted path with the node's uuid. If `fedora:hasParent` is supplied supplied in `POST` data, that location will be used to create the new object as a child.
@@ -88,7 +90,7 @@ Implementations would differ in the sense that accept headers would be different
 
 ## Derivative Services
 
-Derivatives (while generally dealt with through Islandora Sync) may need to be dealt with manually, so services will be provided to handle all the common derivatives types an Islandora installation may require. Much like the file services, a general convention on naming and behavior will be enforced, but seperate implementations will be provided. This will allow for maximum flexibility and encourage new services to be easily added and contributed. 
+Derivatives (while generally dealt with through Islandora Sync) may need to be dealt with manually, so services will be provided to handle all the common derivatives types an Islandora installation may require. Much like the file services, a general convention on naming and behavior will be enforced, but seperate implementations will be provided. This will allow for maximum flexibility and encourage new services to be easily added and contributed.
 
 ### General Convention
 

@@ -1,3 +1,3 @@
 # claw-drupal8
 
-# 8.x-1.0
+# version 8.x-1.1

@@ -1,3 +1,5 @@
+# version 8.x-1.1
+
 # Islandora namespace RELS-EXT predicates
 
 `$ grep -R "ISLANDORA_RELS_EXT_URI" Islandora-7.x`
@@ -51,5 +53,5 @@
 * isSection
 
 ## Compound
- 
+
 * isSequenceNumberOf$escaped_pid

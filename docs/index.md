@@ -1,6 +1,7 @@
+# version 8.x-1.1
+
 # ![Islandora CLAW](https://camo.githubusercontent.com/738dd7cbd90a3ef06b9bb55a4cf5ed385a048fd4/687474703a2f2f69736c616e646f72612e63612f73697465732f64656661756c742f66696c65732f696d616765732f6c6f6273746572434c41572e706e67) Islandora CLAW
 
-# 8.x-1.0
 
 ## Introduction
 

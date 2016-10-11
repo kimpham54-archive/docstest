@@ -1,3 +1,5 @@
+# version 8.x-1.1
+
 ## Transaction Service (done)
 
 Used to start, commit, and rollback transactions.
@@ -156,13 +158,13 @@ CRUD operations for thumbnails
 
 * `PUT` http://localhost:8282/islandora/object/{uuid}/thumbnail?tx={tx_id}
 
-    * Saves the thumbnail provided in the message body to the object identified by the provided uuid.  
+    * Saves the thumbnail provided in the message body to the object identified by the provided uuid.
 
     * Optional transaction id will save the thumbnail within said transaction.
 
 * `DELETE` http://localhost:8282/islandora/object/{uuid}/thumbnail?tx={tx_id}
 
-    * Removes the thumbnail for the object identified by the provided uuid.  
+    * Removes the thumbnail for the object identified by the provided uuid.
 
     * Optional transaction id will delete the thumbnail within said transaction.
 
@@ -182,13 +184,13 @@ CRUD operations for preservation masters
 
 * `PUT` http://localhost:8282/islandora/object/{uuid}/preservationMaster?tx={tx_id}
 
-    * Saves the preservation master provided in the message body to the object identified by the provided uuid.  
+    * Saves the preservation master provided in the message body to the object identified by the provided uuid.
 
     * Optional transaction id will save the file within said transaction.
 
 * `DELETE` http://localhost:8282/islandora/object/{uuid}/preservationMaster?tx={tx_id}
 
-    * Removes the preservation master for the object identified by the provided uuid.  
+    * Removes the preservation master for the object identified by the provided uuid.
 
     * Optional transaction id will delete the file within said transaction.
 

@@ -1,6 +1,7 @@
+# version 8.x-1.1
+
 # ![Chullo](https://cloud.githubusercontent.com/assets/2371345/15409650/21fd66a6-1dec-11e6-9fb3-4a1554a0fb3d.png) Chullo
 
-# 8.x-1.0
 
 Chullo is a PHP client for [Fedora 4](http://fedorarepository.org/) built using [Guzzle](http://guzzlephp.org) and [EasyRdf](http://www.easyrdf.org/).
 

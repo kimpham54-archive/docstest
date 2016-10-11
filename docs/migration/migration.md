@@ -1,3 +1,5 @@
+# version 8.x-1.1
+
 ## fcrepo3 Object properties to fcrepo4
 
 | fcrepo 3         | fcrepo4                             | Example                  |
@@ -35,7 +37,7 @@
 | fcrepo3                                | Example                                                    | fcrepo4          | Example              |
 |----------------------------------------|------------------------------------------------------------|------------------|----------------------|
 | fedora:isMemberOfCollection            | rdf:resource="info:fedora/yul:F0433"                       | fedora:hasParent |                      |
-| fedora-model:hasModel                  | rdf:resource="info:fedora/islandora:sp_large_image_cmodel" | rdf:type         | islandora:largeImage | 
+| fedora-model:hasModel                  | rdf:resource="info:fedora/islandora:sp_large_image_cmodel" | rdf:type         | islandora:largeImage |
 | islandora:inheritXacmlFrom             | rdf:resource="info:fedora/yul:F0433"                       |                  |                      |
 | islandora:hasLanguage                  | fra                                                        | dcterms:language | fra                  |
 | islandora:isPageOf                     | rdf:resource="info:fedora/yul:336566"                      |                  |                      |

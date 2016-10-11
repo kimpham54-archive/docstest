@@ -1,3 +1,5 @@
+# version 8.x-1.1
+
 # Versioning Policy
 
 Islandora CLAW uses [semantic versioning](http://semver.org/).

@@ -1,3 +1,5 @@
+# version 8.x-1.1
+
 # Fedora 3.x namespace RELS-EXT predicates
 
 `$ grep -R "FEDORA_RELS_EXT_URI" Islandora-7.x`
@@ -12,6 +14,6 @@
 * isAnnotationOf
 
 ## Compound
- 
+
 * isConstituentOf
 * isPartOf

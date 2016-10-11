@@ -1,6 +1,6 @@
-## Introduction
+# version 8.x-1.1
 
-# 8.x-1.0
+## Introduction
 
 The is a development environment virtual machine for the Islandora and Fedora 4 project. It should work on any operating system that supports VirtualBox and Vagrant.
 

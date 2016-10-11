@@ -1,6 +1,7 @@
+# version 8.x-1.1
+
 # ![PDX](https://cloud.githubusercontent.com/assets/2371345/15409611/e5906042-1deb-11e6-9a72-e5186f7c033d.png) PDX
 
-# 8.x-1.0
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/Islandora/PDX.svg?style=flat-square)](https://packagist.org/packages/islandora/PDX)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.5-8892BF.svg?style=flat-square)](https://php.net/)
