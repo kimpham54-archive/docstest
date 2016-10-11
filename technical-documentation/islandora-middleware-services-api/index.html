@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+	<title>Islandora middleware services api - Islandora CLAW</title>
+
+        <link href="../../css/bootstrap-3.0.3.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">Islandora CLAW</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Alpaca <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../alpaca/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Chullo <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../chullo/CONTRIBUTING/">CONTRIBUTING</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../chullo/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Crayfish <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../crayfish/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Install <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../install/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Islandora <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../islandora/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Migration <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../migration/fedora-namespace-predicates/">Fedora namespace predicates</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../migration/islandora-namespace-predicates/">Islandora namespace predicates</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../migration/migration/">Migration</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pdx <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../pdx/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical documentation <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../architecture/">Architecture</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../commands/">Commands</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../docs-build/">Docs build</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../islandora-component/">Islandora component</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href="./">Islandora middleware services api</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../services/">Services</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../versioning/">Versioning</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">User documentation <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../user-documentation/2xfor1x/">2xfor1x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../user-documentation/adding-object-to-collection-in-islandora-7.x-2.x/">Adding object to collection in islandora 7.x 2.x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../user-documentation/creating-collections-in-islandora-7.x-2.x/">Creating collections in islandora 7.x 2.x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../user-documentation/editing-basic-image-form-in-islandora-7.x-2.x/">Editing basic image form in islandora 7.x 2.x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../user-documentation/editing-object-metadata-in-islandora-7.x-2/">Editing object metadata in islandora 7.x 2</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../user-documentation/form-field-select-taxonomy-in-islandora-7.x-2.x/">Form field select taxonomy in islandora 7.x 2.x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../user-documentation/intro-to-claw/">Intro to claw</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li >
+                    <a rel="next" href="../islandora-component/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../services/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/kimpham54/docstest">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#transaction-service-done">Transaction Service (done)</a></li>
+        
+    
+        <li class="main "><a href="#resource-service-done">Resource Service (done)</a></li>
+        
+    
+        <li class="main "><a href="#collection-service-sprint-003">Collection Service (Sprint 003)</a></li>
+        
+    
+        <li class="main "><a href="#object-service">Object Service</a></li>
+        
+    
+        <li class="main "><a href="#membership-service">Membership Service</a></li>
+        
+    
+        <li class="main "><a href="#file-service">File Service</a></li>
+        
+    
+        <li class="main "><a href="#thumbnail-service">Thumbnail Service</a></li>
+        
+    
+        <li class="main "><a href="#preservation-master-service">Preservation Master Service</a></li>
+        
+    
+        <li class="main "><a href="#original-document">Original Document</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h2 id="transaction-service-done">Transaction Service (done)</h2>
+<p>Used to start, commit, and rollback transactions.</p>
+<p><strong>Endpoint</strong>: http://localhost:8282/islandora/transaction/</p>
+<p><strong>Actions</strong>:</p>
+<ul>
+<li>
+<p><code>POST</code> http://localhost:8282/islandora-services/transaction/</p>
+<ul>
+<li>Creates a transaction in fedora, returning the id of the newly made transaction</li>
+</ul>
+</li>
+<li>
+<p><code>POST</code> http://localhost:8282/islandora-services/transaction/{tx_id}/extend</p>
+<ul>
+<li>
+<p>Extends a transaction</p>
+</li>
+<li>
+<p>Returns 204 - No Content</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>POST</code> http://localhost:8282/islandora-services/transaction/{tx_id}/commit</p>
+<ul>
+<li>
+<p>Commits a transaction</p>
+</li>
+<li>
+<p>Returns 204 - No Content</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>POST</code> http://localhost:8282/islandora-services/transaction/{tx_id}/rollback</p>
+<ul>
+<li>
+<p>Rolls back a transaction</p>
+</li>
+<li>
+<p>Returns 204 - No Content</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="resource-service-done">Resource Service (done)</h2>
+<p>Exposes basic CRUD operations on repository resources identified by a UUID.</p>
+<p><strong>Endpoint</strong>: http://localhost:8282/islandora/resource/</p>
+<p><strong>Actions</strong>:</p>
+<ul>
+<li>
+<p><code>GET</code> http://localhost:8282/islandora/resource/{uuid}?tx={tx_id}</p>
+<ul>
+<li>
+<p>Returns RDF metadata for the resource identified by the provided UUID.  Respects all headers the Fedora 4 API respects.</p>
+</li>
+<li>
+<p>Optional transaction id will ensure the returned the RDF represents the current status of the resource within said transaction.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>POST</code> http://localhost:8282/islandora/resource/?tx={tx_id}</p>
+<ul>
+<li>
+<p>Creates a resource in Fedora 4.  Respects all headers the Fedora 4 API respects.</p>
+</li>
+<li>
+<p>Optional transaction id will ensure the resource is created within said transaction.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>PUT</code> http://localhost:8282/islandora/resource/{uuid}?tx={tx_id}</p>
+<ul>
+<li>
+<p>Updates a resource in Fedora 4.  Respects all headers the Fedora 4 API respects.</p>
+</li>
+<li>
+<p>Optional transaction id will ensure the resource is updated within said transaction.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>PATCH</code> http://localhost:8282/islandora/resource/{uuid}?tx={tx_id}</p>
+<ul>
+<li>
+<p>Applies a SPARQL/Update query against a resource in Fedora 4.  Respects all headers the Fedora 4 API respects.</p>
+</li>
+<li>
+<p>Optional transaction id will ensure the resource is updated within said transaction.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>DELETE</code> http://localhost:8282/islandora-services/resource/{uuid}?tx={tx_id}</p>
+<ul>
+<li>
+<p>Deletes the resource in Fedora 4.</p>
+</li>
+<li>
+<p>Optional transaction id will ensure the resource is deleted within said transaction.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="collection-service-sprint-003">Collection Service (Sprint 003)</h2>
+<p>Convenience operations for pcdm:Collections in Fedora 4.</p>
+<p><strong>Endpoint</strong>: http://localhost:8282/islandora/collection/</p>
+<p><strong>Actions</strong>:</p>
+<ul>
+<li>
+<p><code>POST</code> http://localhost:8282/islandora/collection/?tx={tx_id}</p>
+<ul>
+<li>
+<p>Creates a pcdm:Collection in Fedora 4.  Respects all headers the Fedora 4 API respects.  Creates the appropriate indirect containers, with slug "members", to manage the pcdm:hasMember relationship or its inverse.</p>
+</li>
+<li>
+<p>Optional transaction id will ensure the resources are created within said transaction.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="object-service">Object Service</h2>
+<p>Convenience operations for pcdm:Objects in Fedora 4.</p>
+<p><strong>Endpoint</strong>: http://localhost:8282/islandora/object/</p>
+<p><strong>Actions</strong>:</p>
+<ul>
+<li>
+<p><code>POST</code> http://localhost:8282/islandora/object/?tx={tx_id}</p>
+<ul>
+<li>
+<p>Creates a pcdm:Object in Fedora 4.  Respects all headers the Fedora 4 API respects.  Adds the appropriate containers to manage the pcdm:hasMember and pcdm:hasFile relationships and their inverses.</p>
+</li>
+<li>
+<p>Optional transaction id will ensure the resources are created within said transaction.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="membership-service">Membership Service</h2>
+<p>Operations to add/remove members from pcdm:Objects and pcdm:Collections.</p>
+<p><strong>Endpoints</strong>:</p>
+<p>http://localhost:8282/islandora/object/{uuid}/members</p>
+<p>http://localhost:8282/islandora/collection/{uuid}/members</p>
+<p><strong>Actions</strong>:</p>
+<p>For brevity, only one of the two endpoints is described in the following section.</p>
+<ul>
+<li>
+<p><code>GET</code> http://localhost:8282/islandora/object/{parent_uuid}/members?tx={tx_id}</p>
+<ul>
+<li>
+<p>Retrieves a list of members associated with object identified by parent_uuid.</p>
+</li>
+<li>
+<p>Optional transaction id will return the state of the list of members within said transaction.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>POST</code> http://localhost:8282/islandora/object/{parent_uuid}/members/{child_uuid}?tx={tx_id}</p>
+<ul>
+<li>
+<p>Adds the resource identified by child_uuid to the object/collection identified by parent_uuid</p>
+</li>
+<li>
+<p>Optional transaction id will ensure the operation is performed within said transaction.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>DELETE</code> http://localhost:8282/islandora/object/{parent_uuid}/members/{child_uuid}?tx={tx_id}</p>
+<ul>
+<li>
+<p>Removes the resource identified by child_uuid from the object/collection identified by parent_uuid</p>
+</li>
+<li>
+<p>Optional transaction id will ensure the operation is performed within said transaction.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="file-service">File Service</h2>
+<p>Lists all files for a pcdm:Object.</p>
+<p><strong>Endpoint</strong>:  http://localhost:8282/islandora/object/{uuid}/files</p>
+<p><strong>Actions</strong>:</p>
+<ul>
+<li>
+<p><code>GET</code> http://localhost:8282/islandora/object/{parent_uuid}/files?tx={tx_id}</p>
+<ul>
+<li>
+<p>Retrieves a list of files associated with object identified by parent_uuid.</p>
+</li>
+<li>
+<p>Optional transaction id will return the state of the list of files within said transaction.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="thumbnail-service">Thumbnail Service</h2>
+<p>CRUD operations for thumbnails</p>
+<p><strong>Endpoint</strong>:  http://localhost:8282/islandora/object/{uuid}/thumbnail</p>
+<p><strong>Actions</strong>:</p>
+<ul>
+<li>
+<p><code>GET</code> http://localhost:8282/islandora/object/{uuid}/thumbnail?tx={tx_id}</p>
+<ul>
+<li>
+<p>Retrieves the thumbnail for the object identified by the provided uuid.  Setting the accept header to an RDF mimetype will return the RDF for the file.  Setting it to a binary mimetype will return the contents of the file.</p>
+</li>
+<li>
+<p>Optional transaction id will return the thumbnail within said transaction.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>PUT</code> http://localhost:8282/islandora/object/{uuid}/thumbnail?tx={tx_id}</p>
+<ul>
+<li>
+<p>Saves the thumbnail provided in the message body to the object identified by the provided uuid.  </p>
+</li>
+<li>
+<p>Optional transaction id will save the thumbnail within said transaction.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>DELETE</code> http://localhost:8282/islandora/object/{uuid}/thumbnail?tx={tx_id}</p>
+<ul>
+<li>
+<p>Removes the thumbnail for the object identified by the provided uuid.  </p>
+</li>
+<li>
+<p>Optional transaction id will delete the thumbnail within said transaction.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="preservation-master-service">Preservation Master Service</h2>
+<p>CRUD operations for preservation masters</p>
+<p><strong>Endpoint</strong>:  http://localhost:8282/islandora/object/{uuid}/preservationMaster</p>
+<p><strong>Actions</strong>:</p>
+<ul>
+<li>
+<p><code>GET</code> http://localhost:8282/islandora/object/{uuid}/preservationMaster?tx={tx_id}</p>
+<ul>
+<li>
+<p>Retrieves the preservation master for the object identified by the provided uuid.  Setting the accept header to an RDF mimetype will return the RDF for the file.  Setting it to a binary mimetype will return the contents of the file.</p>
+</li>
+<li>
+<p>Optional transaction id will return the file within said transaction.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>PUT</code> http://localhost:8282/islandora/object/{uuid}/preservationMaster?tx={tx_id}</p>
+<ul>
+<li>
+<p>Saves the preservation master provided in the message body to the object identified by the provided uuid.  </p>
+</li>
+<li>
+<p>Optional transaction id will save the file within said transaction.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>DELETE</code> http://localhost:8282/islandora/object/{uuid}/preservationMaster?tx={tx_id}</p>
+<ul>
+<li>
+<p>Removes the preservation master for the object identified by the provided uuid.  </p>
+</li>
+<li>
+<p>Optional transaction id will delete the file within said transaction.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="original-document">Original Document</h2>
+<p>Lives on as a Google Document located <a href="https://docs.google.com/document/d/1FxnS28S_I18LnxoVT6J2k7T-m70xJ4F57pyRqBTI7EE/edit">here</a>.</p></div>
+        </div>
+
+	<footer class="col-md-12">
+		<hr>
+		
+		<p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+	</footer>
+
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script src="../../js/base.js"></script>
+    </body>
+</html>

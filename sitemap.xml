@@ -4,17 +4,189 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-09-25</lastmod>
+     <lastmod>2016-10-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
     <url>
-     <loc>None/about/</loc>
-     <lastmod>2016-09-25</lastmod>
+     <loc>None/alpaca/README/</loc>
+     <lastmod>2016-10-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/chullo/CONTRIBUTING/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/chullo/README/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/crayfish/README/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/install/README/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/islandora/README/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/migration/fedora-namespace-predicates/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/migration/islandora-namespace-predicates/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/migration/migration/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/pdx/README/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/technical-documentation/architecture/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/technical-documentation/commands/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/technical-documentation/docs-build/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/technical-documentation/islandora-component/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/technical-documentation/islandora-middleware-services-api/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/technical-documentation/services/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/technical-documentation/versioning/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/user-documentation/2xfor1x/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/user-documentation/adding-object-to-collection-in-islandora-7.x-2.x/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/user-documentation/creating-collections-in-islandora-7.x-2.x/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/user-documentation/editing-basic-image-form-in-islandora-7.x-2.x/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/user-documentation/editing-object-metadata-in-islandora-7.x-2/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/user-documentation/form-field-select-taxonomy-in-islandora-7.x-2.x/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/user-documentation/intro-to-claw/</loc>
+     <lastmod>2016-10-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>

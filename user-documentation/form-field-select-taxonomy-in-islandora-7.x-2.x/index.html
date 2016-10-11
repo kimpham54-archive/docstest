@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+	<title>Form field select taxonomy in islandora 7.x 2.x - Islandora CLAW</title>
+
+        <link href="../../css/bootstrap-3.0.3.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">Islandora CLAW</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Alpaca <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../alpaca/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Chullo <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../chullo/CONTRIBUTING/">CONTRIBUTING</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../chullo/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Crayfish <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../crayfish/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Install <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../install/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Islandora <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../islandora/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Migration <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../migration/fedora-namespace-predicates/">Fedora namespace predicates</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../migration/islandora-namespace-predicates/">Islandora namespace predicates</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../migration/migration/">Migration</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pdx <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../pdx/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical documentation <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../technical-documentation/architecture/">Architecture</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../technical-documentation/commands/">Commands</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../technical-documentation/docs-build/">Docs build</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../technical-documentation/islandora-component/">Islandora component</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../technical-documentation/islandora-middleware-services-api/">Islandora middleware services api</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../technical-documentation/services/">Services</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../technical-documentation/versioning/">Versioning</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">User documentation <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../2xfor1x/">2xfor1x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../adding-object-to-collection-in-islandora-7.x-2.x/">Adding object to collection in islandora 7.x 2.x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../creating-collections-in-islandora-7.x-2.x/">Creating collections in islandora 7.x 2.x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../editing-basic-image-form-in-islandora-7.x-2.x/">Editing basic image form in islandora 7.x 2.x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../editing-object-metadata-in-islandora-7.x-2/">Editing object metadata in islandora 7.x 2</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href="./">Form field select taxonomy in islandora 7.x 2.x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../intro-to-claw/">Intro to claw</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li >
+                    <a rel="next" href="../editing-object-metadata-in-islandora-7.x-2/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../intro-to-claw/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/kimpham54/docstest">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#creating-a-taxonomy-you-can-use-in-your-islandora-content-type">Creating a Taxonomy you can use in your Islandora Content Type</a></li>
+        
+            <li><a href="#taxonomies">Taxonomies</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="creating-a-taxonomy-you-can-use-in-your-islandora-content-type">Creating a Taxonomy you can use in your Islandora Content Type</h1>
+<h2 id="taxonomies">Taxonomies</h2>
+<h3 id="drupal-vs-islandora-xml-forms">Drupal vs Islandora XML Forms</h3>
+<p>Taxonomies and the ability to incorporate them into Islandora XML Forms have been something the community has mostly worked around.  Drupal's taxonomy module allows the user to create a standard set of terms that can be leveraged in a content type.  The select field type in Islandora XML Forms becomes unmanageable when you had more than 10 items (it was easier to add the items in plain XML, than it was to add them through the XML Forms interface).  Drupal taxonomies will hopefully simplify the standardization, maintenance and use of vocabularies within the Islandora framework.</p>
+<h3 id="examples">Examples</h3>
+<h4 id="adding-a-drupal-taxonomy-based-on-dublincores-dcmi-type-vocabulary">Adding a Drupal Taxonomy based on DublinCore's DCMI Type Vocabulary</h4>
+<p>"The <a href="http://dublincore.org/documents/2000/07/11/dcmi-type-vocabulary/">DCMI Type Vocabulary</a> provides a general, cross-domain list of approved terms that may be used as values for the Type element to identify the genre of a resource."<sup>1</sup>  </p>
+<p>The goal of this task is to create a taxonomy that can be used as a field with the field type of <code>Term Reference</code> and uses the <code>Select</code> Widget.  <code>Term Reference</code> will draw on our DCMI Type taxonomy.</p>
+<p><strong>Create a new Taxonomy</strong></p>
+<ol>
+<li>To create a new taxonomy, select <code>Structure &gt; Taxonomy &gt; Add taxonomy</code>. I'm going to call my taxonomy <code>DCMI Type</code>.
+    <img alt="Add a new taxonomy" src="https://lh3.googleusercontent.com/_wAZTJPbWsVt8EebdvlX7xkQbujV-8QJsVGeZqmPqQQ=s700" title="Add a new taxonomy" /></li>
+<li>The next thing you'll want to do is select <code>+Add term</code> to add terms to your taxonomy. The DCMI has <a href="http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=elements#H7">provided a list</a> with definitions.
+   <img alt="Add Taxonomy Term" src="https://lh3.googleusercontent.com/hz_Ybz9XmbYBM8a5QaTaCcXykt-SH88VBUX3ubuQxhc=s700" title="Add Taxonomy Term" /></li>
+<li>Keep adding terms until you've captured the terms and save your taxonomy.
+   <img alt="DCMI Taxonomy" src="https://lh3.googleusercontent.com/hYY0ldThWXSMQyaG6aiPY00fpy031H1Hd7ReWJNAvPY=s700" title="DCMI Taxonomy" /></li>
+</ol>
+<p>See <a href="../editing-basic-image-form-in-islandora-7.x-2.x/">Editing an Ingest form</a> to see how we create a new field in the Basic Image content type.</p>
+<hr />
+<p><sup>1</sup> http://dublincore.org/documents/2000/07/11/dcmi-type-vocabulary/</p></div>
+        </div>
+
+	<footer class="col-md-12">
+		<hr>
+		
+		<p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+	</footer>
+
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script src="../../js/base.js"></script>
+    </body>
+</html>

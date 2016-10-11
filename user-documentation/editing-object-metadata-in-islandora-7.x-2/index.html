@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+	<title>Editing object metadata in islandora 7.x 2 - Islandora CLAW</title>
+
+        <link href="../../css/bootstrap-3.0.3.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">Islandora CLAW</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Alpaca <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../alpaca/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Chullo <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../chullo/CONTRIBUTING/">CONTRIBUTING</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../chullo/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Crayfish <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../crayfish/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Install <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../install/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Islandora <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../islandora/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Migration <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../migration/fedora-namespace-predicates/">Fedora namespace predicates</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../migration/islandora-namespace-predicates/">Islandora namespace predicates</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../migration/migration/">Migration</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pdx <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../pdx/README/">README</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical documentation <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../technical-documentation/architecture/">Architecture</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../technical-documentation/commands/">Commands</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../technical-documentation/docs-build/">Docs build</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../technical-documentation/islandora-component/">Islandora component</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../technical-documentation/islandora-middleware-services-api/">Islandora middleware services api</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../technical-documentation/services/">Services</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../technical-documentation/versioning/">Versioning</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">User documentation <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../2xfor1x/">2xfor1x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../adding-object-to-collection-in-islandora-7.x-2.x/">Adding object to collection in islandora 7.x 2.x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../creating-collections-in-islandora-7.x-2.x/">Creating collections in islandora 7.x 2.x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../editing-basic-image-form-in-islandora-7.x-2.x/">Editing basic image form in islandora 7.x 2.x</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href="./">Editing object metadata in islandora 7.x 2</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../form-field-select-taxonomy-in-islandora-7.x-2.x/">Form field select taxonomy in islandora 7.x 2.x</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../intro-to-claw/">Intro to claw</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li >
+                    <a rel="next" href="../editing-basic-image-form-in-islandora-7.x-2.x/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../form-field-select-taxonomy-in-islandora-7.x-2.x/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/kimpham54/docstest">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#editing-a-basic-image-nodes-metadata-in-islandora-7x-2">Editing a Basic Image Node's Metadata in Islandora 7.x-2</a></li>
+        
+            <li><a href="#edit">Edit</a></li>
+        
+            <li><a href="#save">Save</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="editing-a-basic-image-nodes-metadata-in-islandora-7x-2">Editing a Basic Image Node's Metadata in Islandora 7.x-2</h1>
+<h2 id="edit">Edit</h2>
+<p>Editing Basic Image nodes in Islandora 7.x-2 is like editing any other Drupal node. First you need to have the permission to edit the node, if you don't have permission, then you will not be able to see the <code>Edit</code> option on the node. </p>
+<p><img alt="Editing an Object's Metadata" src="https://lh3.googleusercontent.com/GFSP38y4uOAiPGj43CX3pJLQmaidbPFWd8rR4ngqKm4=s700" title="Editing an Object's Metadata" /></p>
+<p>Selecting <code>Edit</code> takes the user to the node's metadata form and any field the use has permissions to edit can be edited (eg. modify text in text fields or textareas, replace file fields like thumbnails or other images).</p>
+<p><img alt="Edit a Basic Image node" src="https://lh3.googleusercontent.com/-6atB-osL32o/VkD_PFTmUuI/AAAAAAAAAWw/Htq9ojSd6ec/s700/object-editing-2.png" title="Edit a Basic Image node" /></p>
+<h2 id="save">Save</h2>
+<p>Once you have completed your changes, you can either 'Preview' your changes, or you can 'Save' the changes.</p>
+<p><img alt="Save your Changes" src="https://lh3.googleusercontent.com/-0RUDoB6FYp0/VkEAs-IITpI/AAAAAAAAAW8/ch0BEfRvrNY/s700/object-editing-3.png" title="Save your Changes" /> </p></div>
+        </div>
+
+	<footer class="col-md-12">
+		<hr>
+		
+		<p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+	</footer>
+
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script src="../../js/base.js"></script>
+    </body>
+</html>
